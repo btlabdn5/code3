@@ -1,0 +1,13 @@
+int a,b,sonuc;
+void setup() 
+{
+  Serial.begin(9600);            
+}
+void loop() 
+{
+  a = 100;
+  b = 50; 
+  x = a + b;  
+  Serial.println(x);  
+  while(1);
+}
